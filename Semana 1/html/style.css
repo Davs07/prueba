@@ -1,0 +1,163 @@
+:root,
+body {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #333333;
+  list-style: none;
+
+  box-sizing: border-box;
+
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #f4f8ff;
+  color: rgb(10, 0, 42);
+  width: 100vw;
+  overflow-x: hidden;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav img {
+  height: 60px;
+  object-fit: contain;
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  gap: 4px;
+}
+
+.logo-unc {
+  width: 150px;
+}
+
+h4 {
+  color: blue;
+}
+
+img {
+  width: 500px;
+}
+
+.header {
+  width: full;
+  display: flex;
+  flex-direction: column;
+}
+
+.header h1 {
+  margin: 0 auto;
+  color: #ffd600;
+}
+
+/* FORMULARIO */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #0c1590;
+  color: #f4f8ff;
+  border-radius: 20px;
+}
+
+.form-container .img-wrapper {
+  width: 100%;
+  background-image: url("image.png");
+  margin: 100px auto;
+}
+
+form input {
+  padding: 10px;
+
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #f4f8ff;
+}
+
+form #genero {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-width: 0;
+  border: none;
+  padding: 2px;
+}
+
+form #submit-btn {
+  background-color: #f4f8ff;
+  color: #000;
+  margin-top: 20px;
+}
+
+form #submit-btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* styles for select */
+
+select {
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #f4f8ff;
+}
+
+select option {
+  color: #000;
+  background-color: #f4f8ff;
+}
+
+.genero {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  border-radius: 0px;
+  background-color: transparent;
+  border-width: 0;
+  border: none;
+  padding: 2px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="img-wrapper"></div>
+      <form action="" method="get">
+        <h1>Registro de Usuarios</h1>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Escriba su nombre" />
+        <br />
+
+        <label for="apellidos">Apellidos</label>
+        <input
+          type="text"
+          name="apellidos"
+          id="apellidos"
+          placeholder="Escriba sus apellidos" />
+        <br />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Escriba su email" />
+        <br />
+
+        <label for="contraseña">Contraseña</label>
+        <input
+          type="password"
+          name="contraseña"
+          id="contraseña"
+          placeholder="Escriba su contraseña" />
+        <br />
+
+        <label for="pais"> País </label>
+        <select name="pais" id="pais">
+          <option value="peru">Perú</option>
+          <option value="colombia">Colombia</option>
+          <option value="brasil">Brasil</option>
+        </select>
+        <label for="genero">Genero</label>
+        <div class="genero">
+          <input type="radio" name="genero" id="masculino" valid="masculino" />
+          <label for="masculino">Masculino</label>
+          <input type="radio" name="genero" id="femenino" value="femenino" />
+          <label for="femenino">Femenino</label>
+        </div>
+        <label>Términos y condiciones</label>
+        <div>
+          <input type="checkbox" value="terminos" id="terminos" />
+          <label for="terminos">Acepto los términos y condiciones</label>
+        </div>
+
+        <input id="submit-btn" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>
